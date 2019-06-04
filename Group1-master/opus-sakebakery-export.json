@@ -1,0 +1,252 @@
+{
+  "cakedata" : [ null, {
+    "active" : 1,
+    "description" : "A Cake",
+    "flavor" : "Chocolate",
+    "icing" : "Kahula Ganache",
+    "id" : "CID0001",
+    "image" : "www.google.com",
+    "name" : "Flower Cake",
+    "price" : 12000,
+    "side_deco" : "Milk",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/hflower_thumb.png?alt=media&token=a4c49d4e-12a7-49a2-b303-bfa11fa991c9",
+    "top_deco" : "Chocolate Roll"
+  }, {
+    "active" : 1,
+    "description" : "A Cake",
+    "flavor" : "Chocolate",
+    "icing" : "Kahula Ganache",
+    "id" : "CID0002",
+    "image" : "www.google.com",
+    "name" : "Chocolate Cake",
+    "price" : 15000,
+    "side_deco" : "Milk",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/chocolate_thumb.png?alt=media&token=630781ab-abe9-4033-bc20-e2cdb5dfa677",
+    "top_deco" : "Chocolate Roll"
+  }, {
+    "active" : 1,
+    "description" : "A Cake",
+    "flavor" : "Milk",
+    "icing" : "Ganache",
+    "id" : "CID0003",
+    "image" : "www.google.com",
+    "name" : "East Village",
+    "price" : 20000,
+    "side_deco" : "Milk",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/east_village_thumb.png?alt=media&token=cc66a1d6-1a47-4fa5-a310-29c85b30b0ff",
+    "top_deco" : "Chocolate Roll"
+  }, {
+    "active" : 1,
+    "description" : "A Cake",
+    "flavor" : "Duering",
+    "icing" : "Ganache",
+    "id" : "CID0004",
+    "image" : "www.google.com",
+    "name" : "Happy Birthday cake",
+    "price" : 30000,
+    "side_deco" : "Milk",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/hb_candle_thumb.png?alt=media&token=39592ea5-3955-4eb2-a4fc-959c1ddc1ade",
+    "top_deco" : "Chocolate Roll"
+  }, {
+    "active" : 1,
+    "description" : "A Cake",
+    "flavor" : "Espresso Coffee",
+    "icing" : "Ganache",
+    "id" : "CID0005",
+    "image" : "www.google.com",
+    "name" : "Dark Chocolate Cake",
+    "price" : 18000,
+    "side_deco" : "Flower",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/hb_chocolate_thumb.png?alt=media&token=c3521637-2e08-43ad-884a-c93cebed111d",
+    "top_deco" : "Chocolate Roll"
+  }, {
+    "active" : 1,
+    "description" : "A Cake",
+    "flavor" : "Chocolate Durine",
+    "icing" : "Ganache",
+    "id" : "CID0006",
+    "image" : "www.google.com",
+    "name" : "Durine Cake",
+    "price" : 25000,
+    "side_deco" : "Yellow",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/hb_durin_thumb.png?alt=media&token=1bb788a4-0f7a-4dfc-badb-315b0ec15b56",
+    "top_deco" : "Chocolate Roll"
+  }, {
+    "active" : 1,
+    "description" : "A Cake",
+    "flavor" : "Marlar",
+    "icing" : "Ganache",
+    "id" : "CID0007",
+    "image" : "www.google.com",
+    "name" : "2 Flower cake",
+    "price" : 32000,
+    "side_deco" : "Milk",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/hb_flower_thumb.png?alt=media&token=ca338565-d1a2-464f-b850-a75faa03d70c",
+    "top_deco" : "Chocolate Roll"
+  }, {
+    "active" : 1,
+    "description" : "A Cake",
+    "flavor" : "Chocolate",
+    "icing" : "Ganache",
+    "id" : "CID0008",
+    "image" : "www.google.com",
+    "name" : "Heart Birthday Cake",
+    "price" : 21000,
+    "side_deco" : "Milk",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/hb_heart_thumb.png?alt=media&token=eb160702-7c31-494c-b825-d7ad67212841",
+    "top_deco" : "Chocolate Roll"
+  }, {
+    "active" : 1,
+    "description" : "A Cake",
+    "flavor" : "Milk",
+    "icing" : "Ganache",
+    "id" : "CID0009",
+    "image" : "www.google.com",
+    "name" : "Happy Birthday Cake",
+    "price" : 15000,
+    "side_deco" : "Milk",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/hb_strawberry_thumb.png?alt=media&token=c3559f5b-0dd2-4f49-9952-afc4ff592a1a",
+    "top_deco" : "Chocolate Roll"
+  }, {
+    "active" : 1,
+    "description" : "Eye-pleasing and delicious attractive cake suited for every ocassions big or small!!The mixture of teal ombre and orange floral will make you can't forget the taste",
+    "flavor" : "Strawberry",
+    "icing" : "Ganache",
+    "id" : "CID0010",
+    "image" : "www.google.com",
+    "name" : "Orange floral Cake",
+    "price" : 20000,
+    "side_deco" : "Orange",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/love-drip-cake-full_thumb.png?alt=media&token=3985a7d0-b7e0-46d6-9f07-f7ba5cd48fff",
+    "top_deco" : "No top Deco"
+  }, {
+    "active" : 1,
+    "description" : "Overwhelming flavor of redberries and strawberries and the high-end decoration will give the best moment you can't miss!",
+    "flavor" : "Redberries",
+    "icing" : "Pearl",
+    "id" : "CID0012",
+    "image" : "www.google.com",
+    "name" : "Pink Lady",
+    "price" : 25000,
+    "side_deco" : "Whipping Cream",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/milk_thumb.png?alt=media&token=a1c35943-deed-4aa0-b239-b208c0dbd752",
+    "top_deco" : "Strawberries & tiny redberries"
+  }, {
+    "active" : 1,
+    "description" : "Choco lover will find this the best cake ever!!",
+    "flavor" : "Chocolate",
+    "icing" : "No icing",
+    "id" : "CID0013",
+    "image" : "www.google.com",
+    "name" : "Sweetlate Cake",
+    "price" : 28000,
+    "side_deco" : "Plain Choco Layer",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/turkish_thumb.png?alt=media&token=e07ca2e1-ff53-42bd-97d9-a607f0cda666",
+    "top_deco" : "Chocolate Blooms"
+  }],
+  "cart" : [ null, {
+    "active" : 1,
+    "cake_name" : "East Village",
+    "cart_id" : "CAT0001",
+    "price" : 20000,
+    "quantity" : 2,
+    "sub_total" : 40000,
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/Turkish_Delight_Cake%20_thumb.jpg?alt=media&token=be5bd7b1-4cc3-4058-8344-4585e706c6d6",
+    "user_id" : "USR0001"
+  }, {
+    "active" : 1,
+    "cake_name" : "Birthday Cake",
+    "cart_id" : "CAT0001",
+    "price" : 25000,
+    "quantity" : 1,
+    "sub_total" : 25000,
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/opus-sakebakery.appspot.com/o/bigstock-Delicious-birthday-cake-on-tab-78718583.jpg?alt=media&token=4617fe1d-285b-44ae-8ce6-6f4483744807",
+    "user_id" : "USR0001"
+  } ],
+  "order" : [ null, {
+    "active" : 1,
+    "cart_id" : "CAT0001",
+    "last_date" : "31.1.2019",
+    "order_date" : "28.1.2019",
+    "order_id" : "OID0001",
+    "total_price" : "50000 MMK"
+  } ],
+  "user" : [ null, {
+    "active" : 1,
+    "user_address" : "Sanchung",
+    "user_dob" : "5/9/1995",
+    "user_email" : "susu@gmail.com",
+    "user_id" : "USR0002",
+    "user_name" : "Su Su",
+    "user_password" : "abc123",
+    "user_phone" : "09896545565",
+    "user_photo" : "http://mad-photography.co.uk/wp-content/uploads/2016/02/Actress-head-shot-Cally-Forsythe-MAD-Photograpy-London-0696-copy.jpg"
+  }, {
+    "active" : 1,
+    "user_address" : "Hlaing",
+    "user_dob" : "9/12/1988",
+    "user_email" : "hlahla@gmail.com",
+    "user_id" : "USR0003",
+    "user_name" : "Hla Hla",
+    "user_password" : "abc123",
+    "user_phone" : "09887734473",
+    "user_photo" : "http://mad-photography.co.uk/wp-content/uploads/2016/02/mad-photography-london-headshot-head-shot-female-actors-Ade-Gbinigie.jpg"
+  }, {
+    "active" : 1,
+    "user_address" : "Sanchung",
+    "user_dob" : "1/4/2001",
+    "user_email" : "soesoe@gmail.com",
+    "user_id" : "USR0004",
+    "user_name" : "Soe Soe",
+    "user_password" : "abc123",
+    "user_phone" : "09566434098",
+    "user_photo" : "https://carwad.net/sites/default/files/student-images-115653-7895964.jpg"
+  }, {
+    "active" : 1,
+    "user_address" : "Botahtaung",
+    "user_dob" : "1/3/2000",
+    "user_email" : "kophyo@gmail.com",
+    "user_id" : "USR0005",
+    "user_name" : "Ko Phyo",
+    "user_password" : "abc123",
+    "user_phone" : "09691234342",
+    "user_photo" : "https://carwad.net/sites/default/files/student-images-115653-7895964.jpg"
+  }, {
+    "active" : 1,
+    "user_address" : "Yanking",
+    "user_dob" : "11/August/1994",
+    "user_email" : "soesoe@gmail.com",
+    "user_id" : "USR0006",
+    "user_name" : "Soe Nadi Wai",
+    "user_password" : "soesoe1234",
+    "user_phone" : "09691234342",
+    "user_photo" : "https://carwad.net/sites/default/files/student-images-115653-7895964.jpg"
+  }, {
+    "active" : 1,
+    "user_address" : "Tarwa",
+    "user_dob" : "12/July/1995",
+    "user_email" : "thirinwe@gmail.com",
+    "user_id" : "USR0007",
+    "user_name" : "Thiri Nwe",
+    "user_password" : "thirinwe1234",
+    "user_phone" : "09691234342"
+  }, {
+    "active" : 1,
+    "user_address" : "Sanchaung",
+    "user_dob" : "7/July/1995",
+    "user_email" : "heinmoe@gmail.com",
+    "user_id" : "USR0008",
+    "user_name" : "Hein Moe",
+    "user_password" : "heinmoe1234",
+    "user_phone" : "09691234346"
+  }, {
+    "active" : 1,
+    "user_address" : "Blbla",
+    "user_dob" : "8/March/1990",
+    "user_email" : "danny@gmail.com",
+    "user_id" : "USR0009",
+    "user_name" : "Danny",
+    "user_password" : "danny1234",
+    "user_phone" : "0958464664"
+  } ]
+}

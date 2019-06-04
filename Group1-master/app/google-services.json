@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "71177951833",
+    "firebase_url": "https://opus-sakebakery.firebaseio.com",
+    "project_id": "opus-sakebakery",
+    "storage_bucket": "opus-sakebakery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71177951833:android:266f967a0344b3c8",
+        "android_client_info": {
+          "package_name": "com.sakebakery.opus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71177951833-ijfiu7e04185kkvhl8luvfh1ejbs9o5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sakebakery.opus",
+            "certificate_hash": "a35906ff21603cfe95652443172832ae748b01ae"
+          }
+        },
+        {
+          "client_id": "71177951833-i13tdhkk11mkjt2h83u6c5lunhvfna7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzlT6bzFXhXUEdcI5Ip57Z78lzWZgcl2c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71177951833-i13tdhkk11mkjt2h83u6c5lunhvfna7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
