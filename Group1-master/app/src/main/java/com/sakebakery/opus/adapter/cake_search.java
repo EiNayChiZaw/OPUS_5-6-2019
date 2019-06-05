@@ -23,6 +23,11 @@ public class cake_search {
         this.active = active;
     }
 
+    public cake_search(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     public cake_search() {
     }
 
