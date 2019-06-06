@@ -55,7 +55,7 @@ public class Cakelist_firebase_api extends AppCompatActivity {
 
         cake_list = findViewById(R.id.cake_list);
 
-       cakeObjs = new ArrayList<>();
+        cakeObjs = new ArrayList<>();
 
         if (Util.isOnline(getApplicationContext())) {
             LoadFirebaseDB();
@@ -100,10 +100,11 @@ public class Cakelist_firebase_api extends AppCompatActivity {
                     cakeobj.setCake_name(ds.child("name").getValue() + "");
                     cakeobj.setCake_flavor(ds.child("flavor").getValue() + "");
                     cakeobj.setCake_price(ds.child("price").getValue() + "");
-                    cakeobj.setCake_image(ds.child("thumbnail").getValue() + "");
+                     cakeobj.setCake_image(ds.child("thumbnail").getValue() + "");
                     cakeobj.setActive(Integer.parseInt(ds.child("active").getValue() + ""));
-                    cakeObjs.add(ds.getValue(Cakeobj.class));
-                    cakeObjs.add(ds.getValue(Cakeobj.class));
+//                    cakeObjs.add(ds.getValue(Cakeobj.class));
+                  //  cakeObjs.add(ds.getValue(Cakeobj.class));
+                 //   System.out.println("HERE KITTY KITTY" + cakeObjs);
 
                     try {
                         if (cakeobj.getActive() == 1) {
@@ -120,10 +121,14 @@ public class Cakelist_firebase_api extends AppCompatActivity {
                     }
 
                 }
-                LoadUI();
+
+
+                Log.e("CakeObj is here: ", cakeObjs.toString());
 
                 CakedataListAdapter adapterClass = new CakedataListAdapter(cakeObjs);
                 recyclerView.setAdapter(adapterClass);
+
+                LoadUI();
 
                 if (searchView != null) {
                     searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -215,7 +220,7 @@ public class Cakelist_firebase_api extends AppCompatActivity {
     private void search(String str) {
         ArrayList<Cakeobj> mylist = new ArrayList<>();
         for (Cakeobj object : cakeObjs) {
-            if (object.getCake_id().toLowerCase().contains(str.toLowerCase())) {
+            if (object.getCake_name().toLowerCase().contains(str.toLowerCase())) {
                 mylist.add(object);
             }
         }

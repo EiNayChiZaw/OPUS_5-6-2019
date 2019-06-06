@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.sakebakery.opus.adapter.cake_search;
+
 import java.util.ArrayList;
 
 

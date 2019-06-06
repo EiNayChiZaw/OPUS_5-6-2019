@@ -13,6 +13,7 @@ import com.sakebakery.opus.obj.Cakeobj;
 import com.sakebakery.opus.R;
 import com.squareup.picasso.Picasso;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class CakedataListAdapter extends RecyclerView.Adapter<CakedataListAdapter.ViewHolder> {
@@ -25,7 +26,9 @@ public class CakedataListAdapter extends RecyclerView.Adapter<CakedataListAdapte
         this.mInflater = LayoutInflater.from(activity);
         this.activity = activity;
         this.cakeObjs = cakeObjs;
+
     }
+
 
     @NonNull
     @Override
@@ -37,15 +40,24 @@ public class CakedataListAdapter extends RecyclerView.Adapter<CakedataListAdapte
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int position) {
 
-        viewHolder.cake_name_tv.setText(cakeObjs.get(position).getCake_name());
-        viewHolder.cake_flavor_tv.setText(cakeObjs.get(position).getCake_flavor());
+     //   viewHolder.cake_thumb_iv.setText(cakeObjs.get(position).getCake_thumbnail());
+//        viewHolder.cake_name_tv.setText(cakeObjs.get(position).getCake_name());
+//        viewHolder.cake_flavor_tv.setText(cakeObjs.get(position).getCake_flavor());
         viewHolder.cake_price_tv.setText(cakeObjs.get(position).getCake_price());
+        viewHolder.cake_flavor_tv.setText(cakeObjs.get(position).getCake_flavor());
+        viewHolder.cake_name_tv.setText(cakeObjs.get(position).getCake_name());
+        viewHolder.activeness.setText(cakeObjs.get(position).getCake_id());
+     //   viewHolder.cake_thumb_iv.set
 
-        try {
-            Picasso.with(activity).load(cakeObjs.get(position).getCake_thumbnail()).placeholder(R.mipmap.ic_launcher).error(R.mipmap.ic_launcher).into(viewHolder.cake_thumb_iv);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+       // viewHolder.cake_thumb_iv.setText(cakeObjs.get(position).getCake_thumbnail());
+
+
+//
+//        try {
+//            Picasso.with(activity).load(cakeObjs.get(position).getCake_thumbnail()).placeholder(R.mipmap.ic_launcher).error(R.mipmap.ic_launcher).into(viewHolder.cake_thumb_iv);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 
     @Override
@@ -58,15 +70,20 @@ public class CakedataListAdapter extends RecyclerView.Adapter<CakedataListAdapte
 
         public TextView cake_name_tv;
         public TextView cake_flavor_tv;
+        //   public TextView cake_id;
+        // public TextView cake_price;
+        public TextView activeness;
         public TextView cake_price_tv;
-        public ImageView cake_thumb_iv;
+       // public ImageView cake_thumb_iv;
 
         public ViewHolder(View view) {
             super(view);
             this.cake_name_tv = view.findViewById(R.id.tv_cake_name);
             this.cake_flavor_tv = view.findViewById(R.id.tv_cake_flavor);
+            // this.cake_id=view.findViewById(R.id.tv)
             this.cake_price_tv = view.findViewById(R.id.tv_cake_price);
-            this.cake_thumb_iv = view.findViewById(R.id.cake_thumbnail);
+         //   this.cake_thumb_iv = view.findViewById(R.id.tv_cake_price);
+            this.activeness = view.findViewById(R.id.tv_cart_quantity);
         }
     }
 }

@@ -1,32 +1,28 @@
 package com.sakebakery.opus.adapter;
 
 import android.app.Activity;
+import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.support.annotation.NonNull;
 
-import com.sakebakery.opus.obj.Cakeobj;
 import com.sakebakery.opus.R;
-import com.squareup.picasso.Picasso;
+import com.sakebakery.opus.obj.Cakeobj;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class CakedataListAdapter extends RecyclerView.Adapter<CakedataListAdapter.ViewHolder> {
+public class Cakesearchadapter extends RecyclerView.Adapter<Cakesearchadapter.ViewHolder> {
 
     private LayoutInflater mInflater;
     private Activity activity;
     private ArrayList<cake_search> cakesearchobjs;
-    private ArrayList<Cakeobj> cakeObjs;
 
-    public CakedataListAdapter(ArrayList<Cakeobj> cakeObjs) {
+    public Cakesearchadapter(ArrayList<cake_search> cakeObjs) {
         this.mInflater = LayoutInflater.from(activity);
         this.activity = activity;
-        this.cakeObjs = cakeObjs;
+        this.cakesearchobjs = cakeObjs;
 
     }
 
@@ -36,7 +32,7 @@ public class CakedataListAdapter extends RecyclerView.Adapter<CakedataListAdapte
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = mInflater.inflate(R.layout.cake_grid_layout, viewGroup, false);
-        return new CakedataListAdapter.ViewHolder(view);
+        return new Cakesearchadapter.ViewHolder(view);
     }
 
     @Override
@@ -45,8 +41,8 @@ public class CakedataListAdapter extends RecyclerView.Adapter<CakedataListAdapte
 //        viewHolder.cake_name_tv.setText(cakeObjs.get(position).getCake_name());
 //        viewHolder.cake_flavor_tv.setText(cakeObjs.get(position).getCake_flavor());
 //        viewHolder.cake_price_tv.setText(cakeObjs.get(position).getCake_price());
-        viewHolder.cake_flavor_tv.setText(cakeObjs.get(position).getCake_id());
-        viewHolder.cake_name_tv.setText(cakeObjs.get(position).getCake_name());
+        viewHolder.cake_flavor_tv.setText(cakesearchobjs.get(position).getId());
+        viewHolder.cake_name_tv.setText(cakesearchobjs.get(position).getName());
 
 
 //
@@ -59,7 +55,7 @@ public class CakedataListAdapter extends RecyclerView.Adapter<CakedataListAdapte
 
     @Override
     public int getItemCount() {
-        return cakeObjs.size();
+        return cakesearchobjs.size();
     }
 
 

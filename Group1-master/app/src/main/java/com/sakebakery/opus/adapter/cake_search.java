@@ -1,4 +1,4 @@
-package com.sakebakery.opus;
+package com.sakebakery.opus.adapter;
 
 public class cake_search {
     private String id;
